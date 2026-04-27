@@ -21,7 +21,9 @@
  You must setup the agent-routing-table.md. Ask your LLMs to update it with their strengths. 
  
  ART depends only on:                                                                                                                                                                                                                                                                                                 
- ```                                                                                                                                                                 
+ ```
+   extensions/
+   ├── model-switcher.ts                                                                                                                                                            
    art/                                                                                                                                                              
    ├── SKILL.md                # This skill definition                                                                                                               
    ├── agent-routing-table.md  # Model-to-context mapping                                                                                                            
